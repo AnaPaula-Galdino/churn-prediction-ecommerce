@@ -1,0 +1,28 @@
+{
+  "melhor": "Regressão Logística",
+  "taxa_churn": 49.4,
+  "n_clientes": 6000,
+  "metricas": {
+    "Regressão Logística": {
+      "accuracy": 0.821,
+      "precision": 0.817,
+      "recall": 0.821,
+      "f1": 0.819,
+      "roc_auc": 0.909
+    },
+    "Random Forest": {
+      "accuracy": 0.81,
+      "precision": 0.803,
+      "recall": 0.815,
+      "f1": 0.809,
+      "roc_auc": 0.902
+    }
+  },
+  "top_fatores": [
+    "recencia_dias",
+    "nota_media_review",
+    "valor_total"
+  ],
+  "churn_baixa_nota": 68.0,
+  "churn_alta_nota": 39.0
+}
