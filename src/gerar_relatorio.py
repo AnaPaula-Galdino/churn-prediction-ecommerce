@@ -13,6 +13,7 @@ fatores = {"recencia_dias":"recência","nota_media_review":"satisfação (nota)"
 top = ", ".join(fatores.get(f, f) for f in m["top_fatores"])
 
 config = {
+ "eyebrow": "RELATÓRIO DE MODELAGEM PREDITIVA",
  "titulo": "Previsão de Churn de Clientes",
  "subtitulo": "Machine Learning aplicado à retenção em e-commerce (estrutura estilo Olist)",
  "meta": "Autora: Ana Paula Galdino  •  Pós-graduação em Data Analytics (POSTECH/FIAP)  •  Junho de 2026",

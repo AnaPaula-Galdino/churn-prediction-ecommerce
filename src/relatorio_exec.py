@@ -74,7 +74,7 @@ def construir(config, saida):
                             leftMargin=2*cm, rightMargin=2*cm, title=config["titulo"],
                             author="Ana Paula Galdino")
     story = []
-    story.append(Paragraph("ANÁLISE EXECUTIVA", s["Sub"]))
+    story.append(Paragraph(config.get("eyebrow", "RELATÓRIO EXECUTIVO"), s["Sub"]))
     story.append(Paragraph(config["titulo"], s["Titulo"]))
     story.append(Paragraph(config["subtitulo"], s["Sub"]))
     story.append(Paragraph(config["meta"], s["Meta"]))
